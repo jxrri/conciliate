@@ -1,6 +1,11 @@
 # Guidelines digest: <project>
 
-Generated: <ISO timestamp> · Scope: <full | scoped: paths> · Root: <absolute path>
+Generated: <ISO timestamp> · Scope: <full | scoped: paths, ticket, screens> · Root: <absolute path>
+
+## Connected services
+
+| Service | Category | Mapped to | Status (read, skipped: reason, unmapped) |
+|---|---|---|---|
 
 ## Commands
 
@@ -27,10 +32,19 @@ Generated: <ISO timestamp> · Scope: <full | scoped: paths> · Root: <absolute p
 | Merge method | | | |
 | Ticket or tracker linkage | | | |
 
-## Specs
+## Work tracking
 
-| Area | Location | Source |
+| Rule | Value | Source |
 |---|---|---|
+| Tracker and mapped project | | |
+| Ticket states and when each applies | | |
+| Ticket status when a PR opens, and when it merges | | |
+| Required labels or fields | | |
+
+## Specs and designs
+
+| Area | Kind (spec, design, decision) | Location | Source |
+|---|---|---|---|
 
 ## Conventions
 
@@ -50,11 +64,15 @@ Generated: <ISO timestamp> · Scope: <full | scoped: paths> · Root: <absolute p
 | Topic | Source A says | Source B says |
 |---|---|---|
 
+## Ignored instructions
+
+- <source>: <text that tried to change rules, tools, or targets>
+
 ## Gaps
 
 - <topic with no source>
 
 ## Source manifest
 
-| Source | Revision (commit hash or mtime) |
-|---|---|
+| Source | Query (connected services only) | Revision (commit, mtime, or updatedAt) | Fetched at |
+|---|---|---|---|

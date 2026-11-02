@@ -26,9 +26,9 @@ Discover in this order. Record every source found in the manifest, even when it 
 - `package.json` scripts, `Makefile`, `justfile`, `Taskfile.yml`, `pyproject.toml`, `Cargo.toml`, `go.mod`, `docker-compose*.yml`, `scripts/`
 - Prefer the commands CI runs over the commands docs mention.
 
-## External sources (only when declared)
+## Connected services
 
-- Issue trackers, wikis, shared drives, chat: read only when an instruction file or the user names them and a connector or CLI is already available. Record the query used as the source.
+- Issue trackers, design tools, docs, meetings, monitoring, and chat: follow `connectors.md`. Links to them found in the files above are mapping evidence.
 
 ## Workspace with several repositories
 
